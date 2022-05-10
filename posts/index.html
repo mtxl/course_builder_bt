@@ -7,49 +7,21 @@
 
 <meta name="description" content="Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 
-<link rel="stylesheet" href="/_bridgetown/static/css/main.5ee38f633d95ceaf4f31.css" />
-<script src="/_bridgetown/static/js/main.68cf63343601d1efd49c.js" defer></script>
-<script type="module">let lastmod = 0
-function startReloadConnection() {
-  const evtSource = new EventSource("/_bridgetown/live_reload")
-  evtSource.onmessage = event => {
-    if (event.data == "reloaded!") {
-      location.reload()
-    } else {
-      const newmod = Number(event.data)
-      if (lastmod > 0 && newmod > 0 && lastmod < newmod) {
-        location.reload()
-      } else {
-        lastmod = newmod
-      }
-    }
-  }
-  evtSource.onerror = event => {
-    if (evtSource.readyState === 2) {
-      // reconnect with new object
-      evtSource.close()
-      console.warn("Live reload: attempting to reconnect in 3 seconds...")
+<link rel="stylesheet" href="/course_builder_bt/_bridgetown/static/css/main.5ee38f633d95ceaf4f31.css" />
+<script src="/course_builder_bt/_bridgetown/static/js/main.68cf63343601d1efd49c.js" defer></script>
 
-      setTimeout(() => startReloadConnection(), 3000)
-    }
-  }
-}
-setTimeout(() => {
-  startReloadConnection()
-}, 500)
-</script>
 
   </head>
   <body class="page ">
     <header>
-  <img src="/images/logo.svg" alt="Logo" />
+  <img src="/course_builder_bt/images/logo.svg" alt="Logo" />
 </header>
 
 <nav>
   <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/about">About</a></li>
-    <li><a href="/posts">Posts</a></li>
+    <li><a href="/course_builder_bt/">Home</a></li>
+    <li><a href="/course_builder_bt/about">About</a></li>
+    <li><a href="/course_builder_bt/posts">Posts</a></li>
   </ul>
 </nav>
 
@@ -59,7 +31,7 @@ setTimeout(() => {
 
 <ul>
     <li>
-      <a href="/updates/2022/05/10/welcome-to-bridgetown/">Your First Post on Bridgetown</a>
+      <a href="/course_builder_bt/updates/2022/05/10/welcome-to-bridgetown/">Your First Post on Bridgetown</a>
     </li>
 </ul>
 
